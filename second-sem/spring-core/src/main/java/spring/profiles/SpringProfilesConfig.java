@@ -1,11 +1,11 @@
-package baeldung.profiles;
+package spring.profiles;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
 @Configuration
-@ComponentScan("com.baeldung.profiles")
+@ComponentScan("spring.profiles")
 @PropertySource(value = "classpath:application.properties")
 public class SpringProfilesConfig {
 

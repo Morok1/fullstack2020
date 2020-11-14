@@ -19,6 +19,6 @@ public class FooServiceIntegrationTest {
 
     @Test
     public void whenFooFormatterType_thenReturnFoo() {
-        Assert.assertEquals("foo", fooService.doStuff());
+        Assert.assertEquals("bar", fooService.doStuff());
     }
 }

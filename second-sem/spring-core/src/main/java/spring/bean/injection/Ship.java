@@ -1,21 +1,21 @@
-package baeldung.bean.injection;
+package spring.bean.injection;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class Ship {
 
-    @Autowired
     private Helm helm;
 
     public Ship() {
         helm = new Helm();
     }
 
+    @Autowired
     public Ship(Helm helm) {
         this.helm = helm;
     }
 
-    @Autowired
+
     public void setHelm(Helm helm) {
         this.helm = helm;
     }

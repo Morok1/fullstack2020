@@ -1,4 +1,4 @@
-package baeldung.order;
+package spring.order;
 
 public interface Rating {
     

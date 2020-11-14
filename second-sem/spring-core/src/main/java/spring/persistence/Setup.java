@@ -1,4 +1,4 @@
-package baeldung.persistence;
+package spring.persistence;
 
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;

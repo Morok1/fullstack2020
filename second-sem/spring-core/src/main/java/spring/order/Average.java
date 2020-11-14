@@ -1,4 +1,4 @@
-package baeldung.order;
+package spring.order;
 
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;

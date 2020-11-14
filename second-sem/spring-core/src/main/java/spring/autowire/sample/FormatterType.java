@@ -1,4 +1,4 @@
-package baeldung.autowire.sample;
+package spring.autowire.sample;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 

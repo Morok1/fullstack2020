@@ -1,1 +1,1 @@
-package baeldung.spring.config;
+package spring.spring.config;

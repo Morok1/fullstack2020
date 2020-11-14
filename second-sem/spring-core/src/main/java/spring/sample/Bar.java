@@ -1,4 +1,4 @@
-package baeldung.sample;
+package spring.sample;
 
 public class Bar {
 

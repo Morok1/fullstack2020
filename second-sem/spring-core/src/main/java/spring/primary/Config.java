@@ -1,4 +1,4 @@
-package baeldung.primary;
+package spring.primary;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 
 @Configuration
-@ComponentScan(basePackages="com.baeldung.primary")
+@ComponentScan(basePackages="spring.primary")
 public class Config {
 
     @Bean

@@ -1,7 +1,7 @@
-package baeldung.bean.config;
+package spring.bean.config;
 
-import com.baeldung.bean.injection.Helm;
-import com.baeldung.bean.injection.Ship;
+import spring.bean.injection.Helm;
+import spring.bean.injection.Ship;
 import org.springframework.context.annotation.Bean;
 
 public class SetterBasedShipConfig {

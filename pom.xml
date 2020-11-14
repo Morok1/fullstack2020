@@ -13,9 +13,10 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>fullstack2020</name>
     <description>Some code eaxmples of Java and Spring</description>
+    <packaging>pom</packaging>
 
     <properties>
-        <java.version>11</java.version>
+        <java.version>8</java.version>
     </properties>
 
     <dependencies>

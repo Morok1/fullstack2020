@@ -1,4 +1,4 @@
-package baeldung.primary;
+package spring.primary;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

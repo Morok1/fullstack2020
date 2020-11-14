@@ -1,4 +1,4 @@
-package baeldung.spring.config;
+package spring.spring.config;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

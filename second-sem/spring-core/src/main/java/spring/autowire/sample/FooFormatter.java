@@ -1,4 +1,4 @@
-package baeldung.autowire.sample;
+package spring.autowire.sample;
 
 import org.springframework.stereotype.Component;
 

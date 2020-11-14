@@ -1,4 +1,4 @@
-package baeldung.bean.injection;
+package spring.bean.injection;
 
 public class Helm {
 

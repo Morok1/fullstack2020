@@ -1,4 +1,4 @@
-package baeldung.autowire.sample;
+package spring.autowire.sample;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -11,16 +11,16 @@ import org.springframework.stereotype.Component;
 public class FooService {
 
     @Autowired
-    @FormatterType("Foo")
+    @FormatterType("Bar")
     private Formatter formatter;
 
     @Autowired
-    public FooService(@FormatterType("Foo") Formatter formatter) {
+    public FooService(@FormatterType("Bar") Formatter formatter) {
         this.formatter = formatter;
     }
 
     @Autowired
-    public void setFormatter(@FormatterType("Foo") Formatter formatter) {
+    public void setFormatter(@FormatterType("Bar") Formatter formatter) {
         this.formatter = formatter;
     }
 

@@ -1,4 +1,4 @@
-package baeldung.autowire.sample;
+package spring.autowire.sample;
 
 public interface Formatter {
 

@@ -1,4 +1,4 @@
-package baeldung.primary;
+package spring.primary;
 
 import org.springframework.stereotype.Component;
 

@@ -1,4 +1,4 @@
-package baeldung.spring.config;
+package spring.spring.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -11,7 +11,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 @Configuration
-@ComponentScan("com.baeldung.core")
+@ComponentScan("spring.core")
 public class CoreConfig implements WebMvcConfigurer {
 
     public CoreConfig() {

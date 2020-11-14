@@ -1,4 +1,4 @@
-package baeldung.scopes;
+package spring.scopes;
 
 public class Person {
     private String name;

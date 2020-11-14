@@ -8,13 +8,12 @@
 
 ### Чекпоинты
 
-* 22.11  Теория
-* 29.11  Сервисы
-* 14.12  
-
+* до 22.11 обсуждение текущего статуса по вашему проекту
+*  c 22.11  по 6.12 декабря начало сдачи теории
+*  до 14.12 сдать проект
 
 ### Как оценивается
-#### Теория 
+#### Теория
 ##### Java
 * Иерархия коллекций
 * Generics
@@ -24,11 +23,10 @@
 #### Spring
 * Spring lifecycle
 * Основные аннотации (@Component, @Autowired, @Configuration, @Bean)
-* Скоупы бинов 
+* Скоупы бинов
 #### Hibernate
-* N + 1 проблема
 #### Software design
-* Примеры паттернов(Билдер, Фабрика, Стратегия, наблюдатель)
+* Примеры паттернов(Билдер, Фабрика, Стратегия, Наблюдатель)
 * Примеры архитектур приложений
 #### System design
 
@@ -36,16 +34,15 @@
 * Маппинг в таблиц из базы данных в доменную модель
 * Выделены слои приложения(model, dao, service, com.todo.controller)
 * Авторизация(минимум два пользователя)
-* Есть юнит-тесты(используются mockito, hamcrest) 
+* Есть юнит-тесты(используются mockito, hamcrest)
 * Есть как минимум один интеграционный тест
-##### Хор(6-7)  (за каждый пункт + 1 балл)
+##### Хор(6-7) (за каждый пункт + 1 балл)
 * Добавлена докеризация
 * Добавлена сборка на jenkins
-##### Отл(8-10) (за каждый пункт + 1 балл) 
+##### Отл(8-10) (за каждый пункт + 1 балл)
 * Деплой в любой облачный сервис
 * Использование многопоточности
-* Использование асинхронности 
-
+* Использование асинхронности
 
 ### Материалы
 
@@ -62,25 +59,23 @@
 - [Q/A Jpa] (https://habr.com/ru/post/265061/)
 - [How to use hibernate] (https://dou.ua/lenta/articles/how-to-use-hibernate/)
 
-3. End to end 
+3. End to end
 
 4. Сокращатель ссылок
 
 * Основные функции
-* Требования 
-    *Функкциональные 
-    * Нефункиональные 
+* Требования
+*Функкциональные
+* Нефункиональные
 * Оценки
-    * Оценка объема памяти
-    * Кэширование 
+* Оценка объема памяти
+* Кэширование
 * Апи
 * Database design
-    * Какие данные 
-    * Тип базы
-    * Какие таблицы   
+* Какие данные
+* Тип базы
+* Какие таблицы
 * Базовый системный дизайн
-
-
 
 ### 3 Лекция
 
@@ -94,25 +89,19 @@
 
 ##### Документация
 
-* [Oracle Java Code Conventions](http://www.oracle.com/technetwork/java/javase/overview/codeconvtoc-136057.html).
+* [Oracle Java Code Conventions](http://www.oracle.com/technetwork/java/javase/overvie..).
 * [Maven: The Definitive Guide](http://shop.oreilly.com/product/9780596517335.do).
-* [Spring Framework Reference Documentation](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/).
+* [Spring Framework Reference Documentation](http://docs.spring.io/spring/docs/current/spring-fram..).
 
-
-###  Обзор Java
+### Обзор Java
 #### Generics
 * [Обзор дженериков](https://habr.com/ru/company/sberbank/blog/416413/)
 * [Вопросы по интервью по generics](https://itsobes.ru/JavaSobes/tags/dzheneriki/)
- * Type erasure, PECS, Bridge method, (co-contra)variant, row type
+* Type erasure, PECS, Bridge method, (co-contra)variant, row type
 #### Collections
 * [Статья на habr.com](https://habr.com/ru/post/237043/)
 #### Streams
 * [Статья на habr.com](https://habr.com/ru/post/348536/)
 
-
 ## Полезные материалы
 * [Http методы и CORS](https://developer.mozilla.org/ru/docs/Web/HTTP/CORS)
-
-
-
- 

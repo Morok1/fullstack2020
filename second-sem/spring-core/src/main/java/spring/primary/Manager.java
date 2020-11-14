@@ -1,4 +1,4 @@
-package baeldung.primary;
+package spring.primary;
 
 /**
  * Created by Gebruiker on 7/19/2018.

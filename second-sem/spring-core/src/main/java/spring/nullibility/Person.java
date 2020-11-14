@@ -1,4 +1,4 @@
-package baeldung.nullibility;
+package spring.nullibility;
 
 import org.springframework.lang.NonNull;
 import org.springframework.lang.Nullable;
